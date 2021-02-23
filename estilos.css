@@ -1,0 +1,74 @@
+    body {
+    margin: 10px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+
+    }
+
+
+    header{
+    text-align: center;
+    background:  rgb(34, 196, 13);
+    color: rgb(218, 212, 214);
+    }
+
+    @keyframes animacion
+        {120%{background-color: rgb(12, 99, 0);
+        }
+        1%{background-color:rgb(196, 196, 219) ;
+        width: 1619px;}}
+
+        .animacion{
+        height: 80px;  
+        width: 10px;
+        background-color: rgb(6, 74, 95);
+        animation: animacion 10s infinite;
+        z-index: 1;
+
+
+        }
+
+
+
+        nav{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            background-color: brown;
+            text-align: center;font-weight: 400;
+            height: 100px;  
+            width: 1278px;
+            color: rgb(243, 236, 247);
+        }
+        section{
+        
+        margin-left: auto; 
+        margin-right: auto;
+        margin: 14px;
+        background: url("yo.png") no-repeat center;
+        width: 1000px;
+        height: 700px; 
+
+
+
+        
+    }
+
+    aside{
+
+    background-color:  rgb(0, 0, 0);
+    text-align: left;
+    color: aliceblue;
+
+
+
+    }
+    footer{
+        text-align: center  ;
+        margin-top: 8px;
+        padding: 2px;
+        background-color:  rgb(0, 0, 0);
+        width: 950px;
+        color: rgb(194, 196, 224);
+        height: 100px;
+    
+    }
